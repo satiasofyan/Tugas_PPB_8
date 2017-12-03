@@ -11,7 +11,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    String [] isi = {"Baso Yamin","Mie Ayam","Baso Beranak","Baso Tulang","Baso Kumplit","Baso Urat"};
+    String [] isi = {"jus buah","sop buah","es cream ","es cincau madu","es kelapa muda","es doger"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,22 +48,22 @@ public class MainActivity extends AppCompatActivity {
     }
     public boolean onOptionsItemSelected( MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.bookmark:
+            case R.id.Catatan:
                 Toast.makeText(getApplicationContext(), "Bookmark dipilih", Toast.LENGTH_SHORT).show();
                 return true;
-            case R.id.search:
+            case R.id.Memilih:
                 Toast.makeText(getApplicationContext(), "Search dipilih", Toast.LENGTH_SHORT).show();
                 return true;
-            case R.id.share:
+            case R.id.Bagi:
                 Toast.makeText(getApplicationContext(), "share dipilih", Toast.LENGTH_SHORT).show();
                 return true;
-            case R.id.delete:
+            case R.id.Hapus:
                 Toast.makeText(getApplicationContext(), "delete dipilih", Toast.LENGTH_SHORT).show();
                 return true;
             case R.id.preferences:
                 Toast.makeText(getApplicationContext(), "Preferences dipilih", Toast.LENGTH_SHORT).show();
                 return true;
-            case R.id.save:
+            case R.id.Simpan:
                 Toast.makeText(getApplicationContext(), "save dipilih", Toast.LENGTH_SHORT).show();
                 return true;
             default:

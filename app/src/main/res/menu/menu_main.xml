@@ -2,34 +2,34 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/bookmark"
+        android:id="@+id/Catatan"
         android:orderInCategory="1"
-        android:title="Bookmark"
+        android:title="Catatan"
         app:showAsAction="never" />
     <item
-        android:id="@+id/share"
+        android:id="@+id/Bagi"
         android:orderInCategory="2"
-        android:title="Share"
+        android:title="Bagi"
         app:showAsAction="never" />
     <item
-        android:id="@+id/search"
+        android:id="@+id/Memilih"
         android:orderInCategory="3"
-        android:title="Search"
+        android:title="Memilih"
         app:showAsAction="never" />
     <item
-        android:id="@+id/delete"
+        android:id="@+id/Hapus"
         android:orderInCategory="4"
-        android:title="Logout"
+        android:title="Keluar"
         app:showAsAction="never" />
     <item
         android:id="@+id/preferences"
         android:orderInCategory="5"
-        android:title="Setting"
+        android:title="Peraturan"
         app:showAsAction="never" />
     <item
-        android:id="@+id/save"
+        android:id="@+id/Simpan"
         android:orderInCategory="6"
-        android:title="Save"
+        android:title="Simpan"
         app:showAsAction="never" />
     <item
         android:id="@+id/action_search"
